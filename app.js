@@ -109,6 +109,11 @@ const COMMON_AIGC = {
   role: "创意策划 / AIGC 视觉 / 动态制作与后期",
 };
 
+const assetURL = (value = "") => {
+  const source = String(value || "");
+  return /^https?:\/\//i.test(source) ? source : `public/${source}`;
+};
+
 const escapeHTML = (value = "") =>
   String(value).replace(/[&<>'"]/g, (char) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", "'": "&#39;", '"': "&quot;" }[char]));
 
@@ -402,7 +407,7 @@ function renderVmWorks(items) {
       (item, index) => `
         <button class="vm-project reveal" data-vm="${escapeHTML(item.slug)}" aria-label="查看 ${escapeHTML(item.name)} 项目详情">
           <span class="vm-project__visual">
-            <img src="public/${escapeHTML(item.cover)}" alt="${escapeHTML(item.name)}落地现场" loading="lazy" />
+            <img src="${escapeHTML(assetURL(item.cover))}" alt="${escapeHTML(item.name)}落地现场" loading="lazy" />
             <span class="vm-project__number">${String(index + 1).padStart(2, "0")}</span>
             <span class="vm-project__arrow">↗</span>
           </span>
@@ -418,7 +423,7 @@ function renderVmWorks(items) {
       return `
         <button class="vm-mini" data-vm="${escapeHTML(item.slug)}" aria-label="继续发现 ${escapeHTML(item.name)} 项目">
           <span class="vm-mini__visual">
-            <img src="public/${escapeHTML(item.cover)}" alt="${escapeHTML(item.name)}现场细节" loading="lazy" />
+            <img src="${escapeHTML(assetURL(item.cover))}" alt="${escapeHTML(item.name)}现场细节" loading="lazy" />
             <i>${item.gallery.length} IMAGES</i>
           </span>
           <span class="vm-mini__meta"><b>${String(index + 1).padStart(2, "0")}</b><strong>${escapeHTML(item.name)}</strong><small>${escapeHTML(item.type)}</small></span>
@@ -499,12 +504,12 @@ function openVmModal(slug) {
   if (!item) return;
   const gallery = item.gallery
     .slice(1)
-    .map((source) => `<img src="public/${escapeHTML(source)}" alt="${escapeHTML(item.name)}项目现场" loading="lazy" />`)
+    .map((source) => `<img src="${escapeHTML(assetURL(source))}" alt="${escapeHTML(item.name)}项目现场" loading="lazy" />`)
     .join("");
   $("#modal-content").innerHTML = `
     <article class="vm-modal">
       <div class="vm-modal__hero">
-        <img src="public/${escapeHTML(item.cover)}" alt="${escapeHTML(item.name)}落地现场" />
+        <img src="${escapeHTML(assetURL(item.cover))}" alt="${escapeHTML(item.name)}落地现场" />
         <div class="vm-modal__hero-title"><small>${escapeHTML(item.location)} · ${escapeHTML(item.type)}</small><h3>${escapeHTML(item.name)}</h3></div>
       </div>
       <div class="vm-modal__details">
