@@ -1,0 +1,570 @@
+[
+  {
+    "slug": "healing-garden",
+    "name": "治愈花园",
+    "location": "烟台山 × 北京万象汇",
+    "type": "文旅主题美陈 / 节日场景",
+    "keywords": [
+      "主题策划",
+      "IP 符号",
+      "公共空间",
+      "落地执行"
+    ],
+    "services": "创意定位 / 视觉系统 / 装置设计 / 空间落地",
+    "value": "以高识别度的黄色视觉符号，把城市文化转化为可游逛、可传播的公共体验。",
+    "sourceSlides": [
+      1,
+      2
+    ],
+    "cover": "assets/vm/healing-garden-01.webp",
+    "gallery": [
+      "assets/vm/healing-garden-01.webp",
+      "assets/vm/healing-garden-02.webp",
+      "assets/vm/healing-garden-03.webp",
+      "assets/vm/healing-garden-04.webp"
+    ]
+  },
+  {
+    "slug": "little-runs-show",
+    "name": "Little Run’s Show",
+    "location": "汕头华润中心",
+    "type": "开街美陈 / IP 场景",
+    "keywords": [
+      "IP 孵化",
+      "开街活动",
+      "互动装置",
+      "导视延展"
+    ],
+    "services": "IP 概念 / 主视觉 / 3D 场景 / 装置与导视",
+    "value": "用一组轻松有趣的运动 IP 串联入口、休憩与互动节点，形成完整开街记忆。",
+    "sourceSlides": [
+      8
+    ],
+    "cover": "assets/vm/little-runs-show-01.webp",
+    "gallery": [
+      "assets/vm/little-runs-show-01.webp",
+      "assets/vm/little-runs-show-02.webp",
+      "assets/vm/little-runs-show-03.webp"
+    ]
+  },
+  {
+    "slug": "happy-planet",
+    "name": "Happy Planet",
+    "location": "东莞海德·汇一城",
+    "type": "12 周年庆 / 商业美陈",
+    "keywords": [
+      "周年主题",
+      "IP 角色",
+      "外立面",
+      "室内外联动"
+    ],
+    "services": "主题策划 / IP 设计 / 主视觉 / 场景与传播延展",
+    "value": "从建筑外立面到室内入口，以统一 IP 语言建立周年庆的整场传播识别。",
+    "sourceSlides": [
+      9
+    ],
+    "cover": "assets/vm/happy-planet-01.webp",
+    "gallery": [
+      "assets/vm/happy-planet-01.webp",
+      "assets/vm/happy-planet-02.webp",
+      "assets/vm/happy-planet-03.webp",
+      "assets/vm/happy-planet-04.webp",
+      "assets/vm/happy-planet-05.webp"
+    ]
+  },
+  {
+    "slug": "spring-forest-block",
+    "name": "春湖邻里社",
+    "location": "昆明保利春湖",
+    "type": "IP 主题街区 / 商业场景",
+    "keywords": [
+      "街区包装",
+      "IP 场景",
+      "商业氛围",
+      "导视系统"
+    ],
+    "services": "场景定位 / IP 元素 / 商户界面 / 公共区域美陈",
+    "value": "将自然主题与街区商业界面结合，让 IP 成为持续可用的场景资产。",
+    "sourceSlides": [
+      21
+    ],
+    "cover": "assets/vm/spring-forest-block-01.webp",
+    "gallery": [
+      "assets/vm/spring-forest-block-01.webp",
+      "assets/vm/spring-forest-block-02.webp",
+      "assets/vm/spring-forest-block-03.webp",
+      "assets/vm/spring-forest-block-04.webp",
+      "assets/vm/spring-forest-block-05.webp"
+    ]
+  },
+  {
+    "slug": "yantai-red",
+    "name": "烟台红了",
+    "location": "山东新浪政务大会",
+    "type": "城市主题 / 大会场景",
+    "keywords": [
+      "城市营销",
+      "主题策划",
+      "视觉系统",
+      "多点位落地"
+    ],
+    "services": "主题定位 / 主视觉 / 场景装置 / 互动与传播物料",
+    "value": "以“红”为超级视觉符号，将城市地标、活动内容与传播打卡点串成一套现场系统。",
+    "sourceSlides": [
+      7
+    ],
+    "cover": "assets/vm/yantai-red-03.webp",
+    "gallery": [
+      "assets/vm/yantai-red-03.webp",
+      "assets/vm/yantai-red-01.webp",
+      "assets/vm/yantai-red-02.webp",
+      "assets/vm/yantai-red-04.webp",
+      "assets/vm/yantai-red-05.webp",
+      "assets/vm/yantai-red-06.webp"
+    ]
+  },
+  {
+    "slug": "gilded-age-party",
+    "name": "Gilded Age Annual Party",
+    "location": "香港中文大学",
+    "type": "年会美陈 / 整体视觉",
+    "keywords": [
+      "年度主题",
+      "主视觉",
+      "舞台设计",
+      "活动物料"
+    ],
+    "services": "主题策划 / KV 设计 / 舞台与入口 / 全套活动物料",
+    "value": "从入口到舞台、从导视到影像，建立一场风格统一的年度品牌仪式。",
+    "sourceSlides": [
+      27,
+      28
+    ],
+    "cover": "assets/vm/gilded-age-party-01.webp",
+    "gallery": [
+      "assets/vm/gilded-age-party-01.webp",
+      "assets/vm/gilded-age-party-02.webp",
+      "assets/vm/gilded-age-party-03.webp",
+      "assets/vm/gilded-age-party-04.webp",
+      "assets/vm/gilded-age-party-05.webp",
+      "assets/vm/gilded-age-party-06.webp"
+    ]
+  },
+  {
+    "slug": "upper-hills-valentine",
+    "name": "爱在上城",
+    "location": "深圳深业上城",
+    "type": "情人节美陈 / 节日装置",
+    "keywords": [
+      "情人节主题",
+      "空间装置",
+      "主视觉",
+      "节日传播"
+    ],
+    "services": "节日定位 / 主视觉 / 场景装置 / 传播物料落地",
+    "value": "以高浓度玫红、爱心与巴黎铁塔意象，建立从建筑屏幕到室内装置的情人节整场体验。",
+    "sourceSlides": [
+      3
+    ],
+    "cover": "assets/vm/upper-hills-valentine-01.webp",
+    "gallery": [
+      "assets/vm/upper-hills-valentine-01.webp",
+      "assets/vm/upper-hills-valentine-02.webp",
+      "assets/vm/upper-hills-valentine-03.webp"
+    ]
+  },
+  {
+    "slug": "upper-hills-french-window",
+    "name": "French Window",
+    "location": "深圳深业上城",
+    "type": "法式橱窗 / 视觉陈列",
+    "keywords": [
+      "法式橱窗",
+      "花卉图案",
+      "视觉陈列",
+      "空间氛围"
+    ],
+    "services": "橱窗概念 / 图案设计 / 陈列系统 / 现场落地",
+    "value": "以法式建筑结构与彩色花卉图案组织橱窗立面，让装饰艺术成为空间的视觉焦点。",
+    "featured": false,
+    "sourceSlides": [
+      29
+    ],
+    "cover": "assets/vm/upper-hills-french-window-01.webp",
+    "gallery": [
+      "assets/vm/upper-hills-french-window-01.webp",
+      "assets/vm/upper-hills-french-window-02.webp"
+    ]
+  },
+  {
+    "slug": "bestore-pop-up",
+    "name": "良品铺子快闪店",
+    "location": "武汉",
+    "type": "品牌快闪 / 商业空间",
+    "keywords": [
+      "快闪店",
+      "品牌视觉",
+      "产品陈列",
+      "社交传播"
+    ],
+    "services": "概念策划 / 视觉设计 / 3D 空间 / 陈列与物料",
+    "value": "将品牌色、产品内容与打卡动线整合为高辨识度的快闪体验。",
+    "sourceSlides": [
+      32
+    ],
+    "cover": "assets/vm/bestore-pop-up-01.webp",
+    "gallery": [
+      "assets/vm/bestore-pop-up-01.webp",
+      "assets/vm/bestore-pop-up-02.webp"
+    ]
+  },
+  {
+    "slug": "champagne-opening",
+    "name": "Champagne Opening",
+    "location": "深圳深业泰富广场",
+    "type": "开业美陈 / 商业场景",
+    "keywords": [
+      "开业主题",
+      "香槟意象",
+      "入口装置",
+      "商业氛围"
+    ],
+    "services": "开业定位 / 主视觉 / 空间装置 / 现场落地",
+    "value": "以香槟意象和精致金属语言组织开业场景，建立具有庆典感的商业空间记忆。",
+    "featured": false,
+    "sourceSlides": [
+      4
+    ],
+    "cover": "assets/vm/champagne-opening-01.webp",
+    "gallery": [
+      "assets/vm/champagne-opening-01.webp",
+      "assets/vm/champagne-opening-02.webp"
+    ]
+  },
+  {
+    "slug": "chongqing-art-garden",
+    "name": "Art Garden",
+    "location": "重庆龙湖商业",
+    "type": "商业艺术美陈 / 花园装置",
+    "keywords": [
+      "商业艺术",
+      "花园装置",
+      "公共空间",
+      "互动体验"
+    ],
+    "services": "艺术主题 / 装置设计 / 场景营造 / 现场落地",
+    "value": "以艺术花园连接商业空间与公共体验，让装置成为可停留、可传播的场景焦点。",
+    "featured": false,
+    "sourceSlides": [
+      6
+    ],
+    "cover": "assets/vm/chongqing-art-garden-01.webp",
+    "gallery": [
+      "assets/vm/chongqing-art-garden-01.webp",
+      "assets/vm/chongqing-art-garden-02.webp",
+      "assets/vm/chongqing-art-garden-03.webp",
+      "assets/vm/chongqing-art-garden-extra-01.webp",
+      "assets/vm/chongqing-art-garden-extra-02.webp",
+      "assets/vm/chongqing-art-garden-extra-03.webp"
+    ]
+  },
+  {
+    "slug": "inli-grand-opening",
+    "name": "INLI Grand Opening",
+    "location": "深圳深国际印里",
+    "type": "开街美陈 / 商业开业",
+    "keywords": [
+      "开街活动",
+      "主视觉",
+      "场景装置",
+      "商业动线"
+    ],
+    "services": "开街概念 / 视觉系统 / 场景节点 / 物料落地",
+    "value": "围绕开街节奏组织入口、动线和打卡节点，让商业开业形成连续而鲜明的现场识别。",
+    "featured": false,
+    "sourceSlides": [
+      13
+    ],
+    "cover": "assets/vm/inli-grand-opening-01.webp",
+    "gallery": [
+      "assets/vm/inli-grand-opening-01.webp"
+    ]
+  },
+  {
+    "slug": "intercontinental-holidays",
+    "name": "InterContinental Holidays",
+    "location": "深圳洲际酒店",
+    "type": "圣诞新年美陈 / 酒店体验",
+    "keywords": [
+      "酒店节日",
+      "圣诞新年",
+      "艺术装置",
+      "年度焕新"
+    ],
+    "services": "节日主题 / 视觉设计 / 空间装置 / 年度系列延展",
+    "value": "以连续三年的节日场景更新，建立兼具酒店气质、艺术感与仪式感的年度体验系列。",
+    "featured": false,
+    "sourceSlides": [
+      17,
+      18,
+      19
+    ],
+    "cover": "assets/vm/intercontinental-holidays-01.webp",
+    "gallery": [
+      "assets/vm/intercontinental-holidays-01.webp",
+      "assets/vm/intercontinental-holidays-02.webp",
+      "assets/vm/intercontinental-holidays-03.webp",
+      "assets/vm/intercontinental-holidays-04.webp",
+      "assets/vm/intercontinental-holidays-05.webp",
+      "assets/vm/intercontinental-holidays-06.webp"
+    ]
+  },
+  {
+    "slug": "nanchang-flower-market",
+    "name": "New Year Flower Market",
+    "location": "南昌红谷滩区",
+    "type": "新春花市 / 城市节庆",
+    "keywords": [
+      "新春花市",
+      "城市节庆",
+      "主题场景",
+      "公共体验"
+    ],
+    "services": "节庆定位 / 主视觉 / 场景装置 / 城市活动落地",
+    "value": "把传统花市转译为年轻而鲜明的新春城市现场，连接游逛体验与节庆传播。",
+    "featured": false,
+    "sourceSlides": [
+      20
+    ],
+    "cover": "assets/vm/nanchang-flower-market-gallery-01.webp",
+    "gallery": [
+      "assets/vm/nanchang-flower-market-gallery-01.webp",
+      "assets/vm/nanchang-flower-market-gallery-02.webp",
+      "assets/vm/nanchang-flower-market-gallery-03.webp"
+    ]
+  },
+  {
+    "slug": "autumn-art-show",
+    "name": "Autumn Art Show",
+    "location": "深圳深业上城",
+    "type": "秋季艺术展 / 商业艺术",
+    "keywords": [
+      "秋季艺术",
+      "商业展览",
+      "空间叙事",
+      "艺术装置"
+    ],
+    "services": "展览概念 / 视觉设计 / 空间陈列 / 现场执行",
+    "value": "以秋季色彩和艺术装置构建商业展览叙事，让空间在游逛中产生新的观看节奏。",
+    "featured": false,
+    "sourceSlides": [
+      26
+    ],
+    "cover": "assets/vm/autumn-art-show-cover.webp",
+    "gallery": [
+      "assets/vm/autumn-art-show-cover.webp",
+      "assets/vm/autumn-art-show-gallery-01.webp",
+      "assets/vm/autumn-art-show-gallery-02.webp",
+      "assets/vm/autumn-art-show-gallery-03.webp",
+      "assets/vm/autumn-art-show-gallery-04.webp"
+    ]
+  },
+  {
+    "slug": "the-new-garden",
+    "name": "THE NEW Garden",
+    "location": "北京西单 THE NEW 更新场",
+    "type": "公共艺术美陈 / 春季装置",
+    "keywords": [
+      "公共艺术",
+      "春季主题",
+      "花园装置",
+      "商业空间"
+    ],
+    "services": "主题策划 / 艺术装置 / 场景设计 / 现场落地",
+    "value": "以春日花园为线索，让公共艺术装置成为商业空间里的季节记忆点。",
+    "featured": false,
+    "sourceSlides": [
+      5
+    ],
+    "cover": "assets/vm/the-new-garden-01.webp",
+    "gallery": [
+      "assets/vm/the-new-garden-01.webp",
+      "assets/vm/the-new-garden-02.webp",
+      "assets/vm/the-new-garden-03.webp",
+      "assets/vm/the-new-garden-04.webp"
+    ]
+  },
+  {
+    "slug": "blossoming-garden",
+    "name": "Blossoming Garden",
+    "location": "深圳招商会展湾花园里",
+    "type": "开业美陈 / 春日花园",
+    "keywords": [
+      "开业主题",
+      "花园场景",
+      "入口装置",
+      "传播打卡"
+    ],
+    "services": "开业主题 / 主视觉 / 3D 场景 / 装置落地",
+    "value": "用轻盈生长的花园意象连接开业氛围、空间动线与社交传播。",
+    "featured": false,
+    "sourceSlides": [
+      12
+    ],
+    "cover": "assets/vm/blossoming-garden-01.webp",
+    "gallery": [
+      "assets/vm/blossoming-garden-01.webp",
+      "assets/vm/blossoming-garden-02.webp"
+    ]
+  },
+  {
+    "slug": "indigo-new-year",
+    "name": "INDIGO New Year",
+    "location": "深圳 INDIGO 英迪格酒店",
+    "type": "圣诞新年美陈 / 酒店场景",
+    "keywords": [
+      "节日主题",
+      "酒店体验",
+      "入口陈列",
+      "新年氛围"
+    ],
+    "services": "节日概念 / 视觉设计 / 空间装置 / 物料延展",
+    "value": "以克制而精致的节日语言，为酒店公共空间建立完整的新年体验。",
+    "featured": false,
+    "sourceSlides": [
+      16
+    ],
+    "cover": "assets/vm/indigo-new-year-01.webp",
+    "gallery": [
+      "assets/vm/indigo-new-year-01.webp",
+      "assets/vm/indigo-new-year-02.webp",
+      "assets/vm/indigo-new-year-03.webp"
+    ]
+  },
+  {
+    "slug": "future-ip-district",
+    "name": "Future IP District",
+    "location": "武汉东原印未来",
+    "type": "IP 主题示范区 / 场景包装",
+    "keywords": [
+      "IP 主题",
+      "示范区",
+      "场景包装",
+      "体验动线"
+    ],
+    "services": "IP 定位 / 视觉系统 / 场景包装 / 体验动线",
+    "value": "以统一的 IP 语言串联示范区节点，让空间导览与品牌记忆同时发生。",
+    "featured": false,
+    "sourceSlides": [
+      22
+    ],
+    "cover": "assets/vm/future-ip-district-01.webp",
+    "gallery": [
+      "assets/vm/future-ip-district-01.webp",
+      "assets/vm/future-ip-district-02.webp",
+      "assets/vm/future-ip-district-03.webp",
+      "assets/vm/future-ip-district-04.webp",
+      "assets/vm/future-ip-district-05.webp"
+    ]
+  },
+  {
+    "slug": "happy-parade-huizhou",
+    "name": "Happy Parade",
+    "location": "惠州财信阅璟名庭 × 灿邦璟玥公馆",
+    "type": "营销中心外广场 / 主题美陈",
+    "keywords": [
+      "欢乐巡游",
+      "营销中心",
+      "外广场",
+      "IP 场景"
+    ],
+    "services": "主题策划 / IP 视觉 / 场景装置 / 外广场落地",
+    "value": "以欢乐巡游的视觉叙事激活营销中心外广场，形成连续的到访体验。",
+    "featured": false,
+    "sourceSlides": [
+      23,
+      24
+    ],
+    "cover": "assets/vm/happy-parade-huizhou-01.webp",
+    "gallery": [
+      "assets/vm/happy-parade-huizhou-01.webp",
+      "assets/vm/happy-parade-huizhou-02.webp",
+      "assets/vm/happy-parade-huizhou-03.webp",
+      "assets/vm/happy-parade-huizhou-04.webp",
+      "assets/vm/happy-parade-huizhou-05.webp",
+      "assets/vm/happy-parade-huizhou-06.webp"
+    ]
+  },
+  {
+    "slug": "timeless-wonderland",
+    "name": "Timeless Wonderland",
+    "location": "深圳中熙玖玖颂阁",
+    "type": "营销中心 / 开业美陈",
+    "keywords": [
+      "开业主题",
+      "奇境叙事",
+      "营销场景",
+      "装置艺术"
+    ],
+    "services": "概念策划 / 主视觉 / 场景设计 / 物料落地",
+    "value": "用奇境叙事重组入口与停留节点，让营销空间形成清晰的主题记忆。",
+    "featured": false,
+    "sourceSlides": [
+      25
+    ],
+    "cover": "assets/vm/timeless-wonderland-01.webp",
+    "gallery": [
+      "assets/vm/timeless-wonderland-01.webp",
+      "assets/vm/timeless-wonderland-02.webp",
+      "assets/vm/timeless-wonderland-03.webp"
+    ]
+  },
+  {
+    "slug": "tiger-new-year",
+    "name": "Tiger New Year",
+    "location": "山西长治万达广场",
+    "type": "虎年新年美陈 / 节日场景",
+    "keywords": [
+      "虎年主题",
+      "新年美陈",
+      "商业中庭",
+      "节日传播"
+    ],
+    "services": "节日主题 / IP 视觉 / 中庭场景 / 物料延展",
+    "value": "以虎年视觉符号组织中庭场景和传播触点，形成鲜明的新年商业氛围。",
+    "featured": false,
+    "sourceSlides": [
+      11
+    ],
+    "cover": "assets/vm/tiger-new-year-gallery-01.webp",
+    "gallery": [
+      "assets/vm/tiger-new-year-gallery-01.webp"
+    ]
+  },
+  {
+    "slug": "harbour-window",
+    "name": "Harbour Window",
+    "location": "深圳华侨城欢乐港湾",
+    "type": "商区橱窗 / 视觉陈列",
+    "keywords": [
+      "橱窗设计",
+      "商业陈列",
+      "视觉叙事",
+      "零售体验"
+    ],
+    "services": "橱窗概念 / 视觉设计 / 陈列系统 / 现场落地",
+    "value": "让橱窗从单纯陈列升级为连接品牌、街区与行人的视觉叙事界面。",
+    "featured": false,
+    "sourceSlides": [
+      30,
+      31
+    ],
+    "cover": "assets/vm/harbour-window-01.webp",
+    "gallery": [
+      "assets/vm/harbour-window-01.webp",
+      "assets/vm/harbour-window-02.webp",
+      "assets/vm/harbour-window-03.webp",
+      "assets/vm/harbour-window-04.webp"
+    ]
+  }
+]

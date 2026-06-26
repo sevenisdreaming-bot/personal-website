@@ -1,0 +1,355 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#f4f0e8" />
+    <meta
+      name="description"
+      content="SEVEN 的个人创意现场：AIGC 创意视觉制作与商业美陈策划设计，从线上传播到线下体验的一站式创意生产服务。"
+    />
+    <title>SEVEN — Welcome to my imaginary party</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <svg class="filter-defs" width="0" height="0" aria-hidden="true" focusable="false">
+      <defs>
+        <filter id="logo-chroma" x="-12%" y="-16%" width="124%" height="132%" color-interpolation-filters="sRGB">
+          <feColorMatrix type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  1.4 1.4 1.4 0 -1" />
+        </filter>
+      </defs>
+    </svg>
+    <div class="entrance" id="entrance" aria-label="网站入场">
+      <div class="entrance__grain" aria-hidden="true"></div>
+      <div class="entrance__stage">
+        <div class="entrance__mist" aria-hidden="true"><i></i><i></i><i></i></div>
+        <svg class="entrance__hero-shape" viewBox="0 0 1400 720" preserveAspectRatio="none" aria-hidden="true" focusable="false">
+          <defs>
+            <path id="entrance-hero-shape-path" d="M70 404C45 322 145 225 337 154C512 89 740 62 910 105C1051 141 1134 209 1125 284C1245 262 1360 327 1376 430C1392 536 1274 631 1064 680C848 730 641 699 478 604C436 657 385 689 364 677C342 665 360 623 400 572C276 600 141 556 90 489C65 456 56 429 70 404Z" />
+            <clipPath id="entrance-hero-shape-clip">
+              <use href="#entrance-hero-shape-path" />
+            </clipPath>
+          </defs>
+          <use class="entrance__hero-shape-fill" href="#entrance-hero-shape-path" />
+          <g class="entrance__hero-shape-clouds" clip-path="url(#entrance-hero-shape-clip)">
+            <ellipse cx="250" cy="450" rx="170" ry="62" />
+            <ellipse cx="575" cy="570" rx="210" ry="76" />
+            <ellipse cx="935" cy="238" rx="165" ry="58" />
+            <ellipse cx="1180" cy="432" rx="180" ry="66" />
+          </g>
+          <use class="entrance__hero-shape-stroke" href="#entrance-hero-shape-path" />
+        </svg>
+        <div class="entrance__topline">
+          <span>SEVENISDREAMING</span>
+          <span>SHENZHEN · CHINA · 2026</span>
+        </div>
+        <div class="entrance__wordmark interactive-tilt" id="entrance-wordmark" aria-label="创意工作者 SEVEN">
+          <img class="entrance__main-mark" src="public/assets/brand/creative-worker-seven-transparent.webp" alt="创意工作者 SEVEN" />
+          <span class="entrance__logo-keys" aria-hidden="true">
+            <i></i><i></i><i></i><i></i><i></i><i></i>
+            <i></i><i></i><i></i><i></i><i></i><i></i>
+          </span>
+        </div>
+        <div class="entrance__plane entrance__plane--one" aria-hidden="true"></div>
+        <div class="entrance__plane entrance__plane--two" aria-hidden="true"></div>
+        <div class="entrance__bottom">
+          <div class="entrance__progress" aria-live="polite">
+            <div class="entrance__meter"><span id="loading-count">00</span><sup>%</sup></div>
+            <div class="entrance__bar"><i id="loading-bar"></i></div>
+          </div>
+          <div class="entrance__actions">
+            <p class="entrance__tagline"><span>LIGHT ON.</span><span>IDEAS MOVING.</span></p>
+            <button class="pill pill--light" id="enter-site" disabled>
+              <span>进入创意现场</span><small>ENTER THE PARTY ↗</small>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="cursor-dot" id="cursor-dot" aria-hidden="true"><span>PLAY</span></div>
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+    <header class="site-header" id="site-header">
+      <a class="brand-stamp" href="#top" aria-label="回到首页">
+        <img src="public/assets/brand/logo.webp" alt="SEVEN" />
+      </a>
+      <nav class="site-nav" id="site-nav" aria-label="主导航">
+        <a href="#about">我是谁 <small>ABOUT</small></a>
+        <a href="#services">服务 <small>SERVICES</small></a>
+        <a href="#aigc-works">案例 <small>WORKS</small></a>
+        <a href="#contact">合作 <small>CONTACT</small></a>
+      </nav>
+      <div class="header-tools">
+        <button class="sound-control" id="sound-control" aria-pressed="false">
+          <i></i><span>SOUND · READY</span>
+        </button>
+        <button class="menu-toggle" id="menu-toggle" aria-expanded="false" aria-controls="site-nav">
+          <span></span><span></span><span class="sr-only">打开菜单</span>
+        </button>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero section" aria-labelledby="hero-title">
+        <div class="hero__copy">
+          <p class="eyebrow reveal">WELCOME TO MY</p>
+          <h1 id="hero-title" class="hero__title reveal">
+            <span>IMAGINARY</span>
+            <span class="hero__party">PARTY<i>!</i></span>
+          </h1>
+        </div>
+
+        <div class="hero__portrait reveal">
+          <div class="portrait-frame">
+            <img src="public/assets/brand/visual-source.webp" alt="创意设计师 SEVEN 的视觉肖像" />
+          </div>
+          <div class="portrait-graphic-system" aria-hidden="true">
+            <svg class="portrait-graphic-system__wave" viewBox="0 0 520 120" preserveAspectRatio="none">
+              <path d="M0 62C32 62 31 24 62 24s31 76 62 76 31-87 62-87 31 98 62 98 31-72 62-72 31 43 62 43 31-28 62-28 31 8 62 8 31-39 62-39 31 39 62 39" />
+            </svg>
+          </div>
+          <div class="hero__statement reveal">
+            <p class="soundwave-title" aria-label="Let creativity move to your rhythm">
+              <span aria-hidden="true" style="--wave: 0">LET</span><span aria-hidden="true" style="--wave: 1">CREATIVITY</span><span aria-hidden="true" style="--wave: 2">MOVE</span><span aria-hidden="true" style="--wave: 3">TO</span><span aria-hidden="true" style="--wave: 4">YOUR</span><span aria-hidden="true" style="--wave: 5">RHYTHM</span>
+            </p>
+          </div>
+        </div>
+
+        <div class="hero__offer reveal">
+          <p>一站式创意生产服务</p>
+          <strong>01 AIGC 创意视觉制作</strong>
+          <strong>02 商业美陈策划设计</strong>
+          <a class="arrow-link" href="#services">看我能做什么 <span>↓</span></a>
+        </div>
+
+        <div class="spark-game reveal" aria-label="收集三个创意火花">
+          <span>CREATIVE ENERGY <b id="spark-count">0/3</b></span>
+          <div class="spark-game__tokens">
+            <button class="spark spark--cursor" aria-label="收集光标灵感">
+              <svg viewBox="0 0 64 32" aria-hidden="true"><path d="M2 16h8l4-9 7 19 7-14 7 8 6-12 6 16 5-8h10" /></svg>
+            </button>
+            <button class="spark spark--command" aria-label="收集创意节拍">
+              <svg viewBox="0 0 64 32" aria-hidden="true"><path d="M5 21V11m9 16V5m9 19V8m9 20V4m9 20V8m9 17V7m9 14V11" /></svg>
+            </button>
+            <button class="spark spark--lens" aria-label="收集视觉镜头">
+              <svg viewBox="0 0 64 32" aria-hidden="true"><path d="M2 16h12c4 0 4-10 8-10s4 20 8 20 4-15 8-15 4 10 8 10 4-5 8-5h8" /></svg>
+            </button>
+          </div>
+        </div>
+
+        <a class="scroll-cue" href="#about"><span>SCROLL TO EXPLORE</span><i></i></a>
+      </section>
+
+      <div class="ticker" aria-hidden="true">
+        <div>
+          <span>AIGC CREATIVE VISUAL</span><i>✦</i><span>商业美陈全案</span><i>✦</i><span>ONLINE TO OFFLINE</span><i>✦</i>
+          <span>AIGC CREATIVE VISUAL</span><i>✦</i><span>商业美陈全案</span><i>✦</i><span>ONLINE TO OFFLINE</span><i>✦</i>
+        </div>
+      </div>
+
+      <section class="about section" id="about" aria-labelledby="about-title">
+        <div class="section-index reveal"><span>02</span><small>CREATIVE PROFILE · IMAGINATION IN ACTION</small></div>
+        <div class="about__headline">
+          <p class="eyebrow reveal">创意人 · CREATIVE DREAMER</p>
+          <h2 id="about-title" class="display-title reveal"><span class="about-title__motion">让<span class="about-title__imagination">想象力</span><br />无限驰骋</span></h2>
+        </div>
+        <div class="about__intro reveal">
+          <p class="lead">7 YEARS OF COMMERCIAL INSTALLATION AND EXPERIMENTAL PLANNING EXPERIENCE</p>
+          <p>以 AIGC 创意视觉与商业美陈全案为双主线，把创意从概念推进到传播内容与真实场景。</p>
+        </div>
+        <dl class="profile-facts reveal">
+          <div><dt>BASE</dt><dd>深圳 SHENZHEN</dd></div>
+          <div><dt>ROLE</dt><dd>独立创意人 / INDEPENDENT CREATIVE</dd></div>
+          <div><dt>小红书</dt><dd>30K+ FOLLOWERS</dd></div>
+          <div><dt>WECHAT</dt><dd>sevenisdreaming</dd></div>
+        </dl>
+        <div class="about__side-note reveal">
+          <span>AI EMPOWERED<br />AND DRIVEN</span>
+        </div>
+      </section>
+
+      <section class="services section section--ink" id="services" aria-labelledby="services-title">
+        <div class="section-index section-index--light reveal"><span>03</span><small>CREATIVE SERVICES</small></div>
+        <div class="metal-star interactive-tilt reveal" id="service-star" tabindex="0" aria-label="互动金属创意星">
+          <span class="metal-star__core"></span>
+          <span class="metal-star__halo"></span>
+        </div>
+        <div class="services__intro">
+          <h2 id="services-title" class="display-title reveal">两个主舞台，<br /><em class="services__nowrap">一套创意生产力。</em></h2>
+          <p class="reveal">从 AIGC 影像到商业美陈，从线上传播到线下体验。</p>
+        </div>
+
+        <article class="service-stage service-stage--aigc reveal" data-service="aigc">
+          <button class="service-stage__head" aria-expanded="true">
+            <span class="service-stage__number">01</span>
+            <span class="service-stage__title">
+              <small>AIGC CREATIVE VISUAL PRODUCTION</small>
+              <strong>AIGC 创意视觉制作</strong>
+            </span>
+            <i>−</i>
+          </button>
+          <div class="service-stage__body">
+            <div class="service-stage__claim">
+              <p>以 AIGC 为核心，完成从创意概念、视觉生成、动态影像到多平台传播素材的视觉生产。</p>
+              <strong>把品牌想法，转化为可传播的视觉内容。</strong>
+            </div>
+            <ul>
+              <li><span>01</span>AIGC 产品广告创意影像</li>
+              <li><span>02</span>AIGC 品牌商业传播视觉</li>
+              <li><span>03</span>AIGC 数字艺术视觉</li>
+              <li><span>04</span>AIGC 影视化叙事短片</li>
+            </ul>
+            <a class="pill pill--yellow" href="#aigc-works"><span>看创意案例</span><small>VIEW THE SHOWREEL ↗</small></a>
+          </div>
+        </article>
+
+        <article class="service-stage service-stage--vm reveal" data-service="vm">
+          <button class="service-stage__head" aria-expanded="false">
+            <span class="service-stage__number">02</span>
+            <span class="service-stage__title">
+              <small>COMMERCIAL VISUAL MERCHANDISING</small>
+              <strong>商业美陈策划设计</strong>
+            </span>
+            <i>+</i>
+          </button>
+          <div class="service-stage__body" hidden>
+            <div class="service-stage__claim">
+              <p>以商业场景为核心，完成创意定位、IP 孵化、视觉设计、空间呈现到传播延展的全案策划。</p>
+              <strong>不只是空间设计，而是商业场景的完整体验系统。</strong>
+            </div>
+            <ul>
+              <li><span>01</span>商业空间策划设计</li>
+              <li><span>02</span>美陈装置与快闪店</li>
+              <li><span>03</span>橱窗与节日美陈</li>
+              <li><span>04</span>IP 孵化与传播延展</li>
+            </ul>
+            <a class="pill pill--pink" href="#vm-works"><span>看落地现场</span><small>EXPLORE SPACES ↗</small></a>
+          </div>
+        </article>
+      </section>
+
+      <section class="showcase-bridge section" aria-labelledby="showcase-title">
+        <div class="section-index reveal"><span>04</span><small>TWO CORE SHOWCASES</small></div>
+        <div class="showcase-bridge__copy">
+          <p class="eyebrow reveal">AIGC × COMMERCIAL VM</p>
+          <h2 id="showcase-title" class="display-title reveal">线上造势 <span class="showcase-title__cross">×</span> 线下造场</h2>
+          <p class="reveal">同一套创意系统，连接内容传播与空间体验。<br />让线上被看见，让线下被记住。</p>
+        </div>
+        <a class="showcase-half showcase-half--aigc reveal" href="#aigc-works">
+          <img src="public/assets/aigc/myo-cover.webp" alt="MYO 奈娃家族 AIGC 商用广告案例" loading="lazy" />
+          <span class="showcase-half__caption">
+            <small>01 / SELECTED COMMERCIAL VIDEO WORKS</small>
+            <strong>AIGC 影像秀场</strong>
+          </span>
+        </a>
+        <a class="showcase-half showcase-half--vm reveal" href="#vm-works">
+          <img src="public/assets/vm/happy-planet-01.webp" alt="商业美陈落地案例" loading="lazy" />
+          <span class="showcase-half__caption">
+            <small>02 / COMMERCIAL EXPERIENCE DESIGN</small>
+            <strong>商业场景现场</strong>
+          </span>
+        </a>
+      </section>
+
+      <section class="aigc-works section section--pink" id="aigc-works" aria-labelledby="aigc-title">
+        <div class="section-index reveal"><span>05</span><small>COMMERCIAL AIGC VIDEO WORKS</small></div>
+        <div class="works-heading">
+          <div>
+            <p class="eyebrow reveal">REAL COMMERCIAL PROJECTS</p>
+            <h2 id="aigc-title" class="display-title reveal">AIGC 广告<br />创意案例</h2>
+          </div>
+          <p class="reveal">已商用落地的 AIGC 广告影像，服务新品宣发、节日营销、品牌宣传和社媒传播。</p>
+        </div>
+        <div class="gallery-instruction reveal"><span>DRAG / SWIPE</span><i></i><span>点击播放真实项目</span></div>
+        <div class="video-rail" id="video-rail" aria-label="AIGC 视频案例横向画廊"></div>
+      </section>
+
+      <section class="vm-works section" id="vm-works" aria-labelledby="vm-title">
+        <div class="section-index reveal"><span>06</span><small>COMMERCIAL VM WORKS</small></div>
+        <div class="vm-works__heading">
+          <p class="eyebrow reveal">FROM CONCEPT TO REAL SPACE</p>
+          <h2 id="vm-title" class="display-title reveal"><span>“摆漂亮”</span><br /><em>不是</em>商业美陈。</h2>
+          <p class="reveal">它是一套从创意定位、IP、平面、3D、物料到线上传播的完整体验系统。</p>
+        </div>
+        <div class="vm-stage" id="vm-stage"></div>
+        <div class="vm-discover reveal">
+          <div class="vm-discover__heading">
+            <p>MORE TO DISCOVER</p>
+            <span>15 PROJECTS · DRAG / SWIPE</span>
+          </div>
+          <div class="vm-discover__rail" id="vm-discover-rail" aria-label="更多商业美陈现场切片"></div>
+        </div>
+      </section>
+
+      <section class="workflow section section--yellow" id="workflow" aria-labelledby="workflow-title">
+        <div class="section-index reveal"><span>07</span><small>END-TO-END WORKFLOW</small></div>
+        <div class="workflow__heading">
+          <p class="eyebrow reveal">FROM IDEA TO IMPACT</p>
+          <h2 id="workflow-title" class="display-title reveal">创意不是灵光一闪，<br />是一条完整生产链。</h2>
+        </div>
+        <div class="workflow-track reveal">
+          <div class="workflow-track__label"><span>01</span><strong>AIGC 视觉制作链路</strong></div>
+          <ol>
+            <li><b>01</b>传播定位</li><li><b>02</b>创意策划</li><li><b>03</b>脚本分镜</li><li><b>04</b>视觉生成</li>
+            <li><b>05</b>动态制作</li><li><b>06</b>后期合成</li><li><b>07</b>传播延展</li>
+          </ol>
+        </div>
+        <div class="workflow-track workflow-track--dark reveal">
+          <div class="workflow-track__label"><span>02</span><strong>商业美陈全案链路</strong></div>
+          <ol>
+            <li><b>01</b>创意定位和全案策划</li><li><b>02</b>IP 孵化</li><li><b>03</b>平面设计</li>
+            <li><b>04</b>3D 建模渲染</li><li><b>05</b>物料设计</li><li><b>06</b>线上传播视觉</li>
+          </ol>
+        </div>
+      </section>
+
+      <section class="vision section section--ink" id="vision" aria-labelledby="vision-title">
+        <div class="section-index section-index--light reveal"><span>08</span><small>VISION NOTES</small></div>
+        <h2 id="vision-title" class="sr-only">我的创意判断</h2>
+        <div class="vision-line reveal"><small>01 / SYSTEM</small><p>AIGC 不只是出图出字，<br /><em>而是一套视觉生产系统。</em></p></div>
+        <div class="vision-line reveal"><small>02 / EXPERIENCE</small><p>商业美陈不只是空间，<br /><em>而是一套商业体验系统。</em></p></div>
+        <div class="vision-line reveal"><small>03 / IMPACT</small><p>线上内容制造可见度。<br /><em>线下场景制造记忆点。</em></p></div>
+        <div class="vision__stamp reveal">MAKE IT<br />VISIBLE.<br />MAKE IT<br />MEMORABLE.</div>
+      </section>
+
+      <section class="contact section" id="contact" aria-labelledby="contact-title">
+        <div class="contact__tiles" aria-hidden="true"></div>
+        <div class="contact-object contact-call interactive-tilt" aria-hidden="true">
+          <svg viewBox="0 0 88 88">
+            <path class="contact-call__handset" d="M17 18c5-7 12-8 18-3l8 7c3 3 3 7 1 10l-5 7c4 7 10 13 17 17l7-5c4-2 8-2 11 2l6 8c5 6 3 13-3 18l-5 4c-5 4-13 5-20 2C31 76 13 58 5 37c-3-7-1-14 3-19z" />
+            <path class="contact-call__signal" d="M55 11c10 2 18 10 20 20M57 21c5 1 8 4 9 9" />
+          </svg>
+          <span>CONTACT ME</span>
+        </div>
+        <p class="eyebrow reveal">START YOUR NEXT PROJECT</p>
+        <h2 id="contact-title" class="contact__title reveal">YOUR IDEA<br /><span>MATTERS.</span></h2>
+        <p class="contact__lead reveal">需要一个从线上传播到线下体验的创意方案？<br />我们可以开始聊聊。</p>
+        <div class="contact__actions reveal">
+          <a class="contact-link contact-link--email" href="mailto:sevenisdreaming@gmail.com">
+            <small>EMAIL ME</small><span>sevenisdreaming@gmail.com</span><b>↗</b>
+          </a>
+          <button class="contact-link" data-copy="sevenisdreaming">
+            <small>ADD WECHAT</small><span>sevenisdreaming</span><b>＋</b>
+          </button>
+          <a class="contact-link" href="https://www.xiaohongshu.com/search_result?keyword=%E5%88%9B%E6%84%8F%E5%B7%A5%E4%BD%9C%E8%80%85SEVEN" target="_blank" rel="noreferrer">
+            <small>FOLLOW ON 小红书</small><span>创意工作者 SEVEN · 30K+</span><b>↗</b>
+          </a>
+        </div>
+        <div class="contact__footer">
+          <img src="public/assets/brand/logo.webp" alt="创意工作者 SEVEN" loading="lazy" />
+          <p>SHENZHEN · AVAILABLE FOR SELECTED PROJECTS</p>
+          <a href="#top">BACK TO TOP ↑</a>
+        </div>
+      </section>
+    </main>
+
+    <dialog class="work-modal" id="work-modal">
+      <button class="modal-close" id="modal-close" aria-label="关闭详情">CLOSE <span>×</span></button>
+      <div class="modal-content" id="modal-content"></div>
+    </dialog>
+
+    <script src="public/assets/work-data.js" defer></script>
+    <script src="app.js" defer></script>
+  </body>
+</html>
