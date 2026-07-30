@@ -19,9 +19,9 @@
     "cover": "assets/vm/healing-garden-01.webp",
     "gallery": [
       "assets/vm/healing-garden-01.webp",
-      "assets/vm/healing-garden-02.webp",
-      "assets/vm/healing-garden-03.webp",
-      "assets/vm/healing-garden-04.webp"
+      "assets/vm/healing-garden-02-no-logo.jpg",
+      "assets/vm/healing-garden-03-no-logo.jpg",
+      "assets/vm/healing-garden-04-no-logo.jpg"
     ]
   },
   {
@@ -40,11 +40,11 @@
     "sourceSlides": [
       8
     ],
-    "cover": "assets/vm/little-runs-show-01.webp",
+    "cover": "assets/vm/little-runs-show-01-no-logo.jpg",
     "gallery": [
-      "assets/vm/little-runs-show-01.webp",
+      "assets/vm/little-runs-show-01-no-logo.jpg",
       "assets/vm/little-runs-show-02.webp",
-      "assets/vm/little-runs-show-03.webp"
+      "assets/vm/little-runs-show-03-no-logo.jpg"
     ]
   },
   {
@@ -63,12 +63,12 @@
     "sourceSlides": [
       9
     ],
-    "cover": "assets/vm/happy-planet-01.webp",
+    "cover": "assets/vm/happy-planet-01-no-logo.jpg",
     "gallery": [
-      "assets/vm/happy-planet-01.webp",
-      "assets/vm/happy-planet-02.webp",
-      "assets/vm/happy-planet-03.webp",
-      "assets/vm/happy-planet-04.webp",
+      "assets/vm/happy-planet-01-no-logo.jpg",
+      "assets/vm/happy-planet-02-no-logo.jpg",
+      "assets/vm/happy-planet-03-no-logo.jpg",
+      "assets/vm/happy-planet-04-no-logo.jpg",
       "assets/vm/happy-planet-05.webp"
     ]
   },
@@ -88,12 +88,12 @@
     "sourceSlides": [
       21
     ],
-    "cover": "assets/vm/spring-forest-block-01.webp",
+    "cover": "assets/vm/spring-forest-block-01-no-logo.jpg",
     "gallery": [
-      "assets/vm/spring-forest-block-01.webp",
+      "assets/vm/spring-forest-block-01-no-logo.jpg",
       "assets/vm/spring-forest-block-02.webp",
-      "assets/vm/spring-forest-block-03.webp",
-      "assets/vm/spring-forest-block-04.webp",
+      "assets/vm/spring-forest-block-03-no-logo.jpg",
+      "assets/vm/spring-forest-block-04-no-logo.jpg",
       "assets/vm/spring-forest-block-05.webp"
     ]
   },
@@ -166,11 +166,11 @@
     "sourceSlides": [
       3
     ],
-    "cover": "assets/vm/upper-hills-valentine-01.webp",
+    "cover": "assets/vm/upper-hills-valentine-01-no-logo.jpg",
     "gallery": [
-      "assets/vm/upper-hills-valentine-01.webp",
-      "assets/vm/upper-hills-valentine-02.webp",
-      "assets/vm/upper-hills-valentine-03.webp"
+      "assets/vm/upper-hills-valentine-01-no-logo.jpg",
+      "assets/vm/upper-hills-valentine-02-no-logo.jpg",
+      "assets/vm/upper-hills-valentine-03-no-logo.jpg"
     ]
   },
   {
@@ -238,7 +238,7 @@
     "cover": "assets/vm/champagne-opening-01.webp",
     "gallery": [
       "assets/vm/champagne-opening-01.webp",
-      "assets/vm/champagne-opening-02.webp"
+      "assets/vm/champagne-opening-02-no-logo.jpg"
     ]
   },
   {
@@ -285,9 +285,9 @@
     "sourceSlides": [
       13
     ],
-    "cover": "assets/vm/inli-grand-opening-01.webp",
+    "cover": "assets/vm/inli-grand-opening-01-no-logo.jpg",
     "gallery": [
-      "assets/vm/inli-grand-opening-01.webp"
+      "assets/vm/inli-grand-opening-01-no-logo.jpg"
     ]
   },
   {
@@ -309,14 +309,14 @@
       18,
       19
     ],
-    "cover": "assets/vm/intercontinental-holidays-01.webp",
+    "cover": "assets/vm/intercontinental-holidays-01-no-logo.jpg",
     "gallery": [
-      "assets/vm/intercontinental-holidays-01.webp",
-      "assets/vm/intercontinental-holidays-02.webp",
-      "assets/vm/intercontinental-holidays-03.webp",
-      "assets/vm/intercontinental-holidays-04.webp",
-      "assets/vm/intercontinental-holidays-05.webp",
-      "assets/vm/intercontinental-holidays-06.webp"
+      "assets/vm/intercontinental-holidays-01-no-logo.jpg",
+      "assets/vm/intercontinental-holidays-02-no-logo.jpg",
+      "assets/vm/intercontinental-holidays-03-no-logo.jpg",
+      "assets/vm/intercontinental-holidays-04-no-logo.jpg",
+      "assets/vm/intercontinental-holidays-05-no-logo.jpg",
+      "assets/vm/intercontinental-holidays-06-no-logo.jpg"
     ]
   },
   {
@@ -336,10 +336,10 @@
     "sourceSlides": [
       20
     ],
-    "cover": "assets/vm/nanchang-flower-market-gallery-01.webp",
+    "cover": "assets/vm/nanchang-flower-market-gallery-01-no-logo.jpg",
     "gallery": [
-      "assets/vm/nanchang-flower-market-gallery-01.webp",
-      "assets/vm/nanchang-flower-market-gallery-02.webp",
+      "assets/vm/nanchang-flower-market-gallery-01-no-logo.jpg",
+      "assets/vm/nanchang-flower-market-gallery-02-no-logo.jpg",
       "assets/vm/nanchang-flower-market-gallery-03.webp"
     ]
   },
@@ -364,9 +364,9 @@
     "gallery": [
       "assets/vm/autumn-art-show-cover.webp",
       "assets/vm/autumn-art-show-gallery-01.webp",
-      "assets/vm/autumn-art-show-gallery-02.webp",
+      "assets/vm/autumn-art-show-gallery-02-no-logo.jpg",
       "assets/vm/autumn-art-show-gallery-03.webp",
-      "assets/vm/autumn-art-show-gallery-04.webp"
+      "assets/vm/autumn-art-show-gallery-04-no-logo.jpg"
     ]
   },
   {
@@ -411,10 +411,10 @@
     "sourceSlides": [
       12
     ],
-    "cover": "assets/vm/blossoming-garden-01.webp",
+    "cover": "assets/vm/blossoming-garden-01-no-logo.jpg",
     "gallery": [
-      "assets/vm/blossoming-garden-01.webp",
-      "assets/vm/blossoming-garden-02.webp"
+      "assets/vm/blossoming-garden-01-no-logo.jpg",
+      "assets/vm/blossoming-garden-02-no-logo.jpg"
     ]
   },
   {
@@ -434,9 +434,9 @@
     "sourceSlides": [
       16
     ],
-    "cover": "assets/vm/indigo-new-year-01.webp",
+    "cover": "assets/vm/indigo-new-year-01-no-logo.jpg",
     "gallery": [
-      "assets/vm/indigo-new-year-01.webp",
+      "assets/vm/indigo-new-year-01-no-logo.jpg",
       "assets/vm/indigo-new-year-02.webp",
       "assets/vm/indigo-new-year-03.webp"
     ]
@@ -458,11 +458,11 @@
     "sourceSlides": [
       22
     ],
-    "cover": "assets/vm/future-ip-district-01.webp",
+    "cover": "assets/vm/future-ip-district-01-no-logo.jpg",
     "gallery": [
-      "assets/vm/future-ip-district-01.webp",
+      "assets/vm/future-ip-district-01-no-logo.jpg",
       "assets/vm/future-ip-district-02.webp",
-      "assets/vm/future-ip-district-03.webp",
+      "assets/vm/future-ip-district-03-no-logo.jpg",
       "assets/vm/future-ip-district-04.webp",
       "assets/vm/future-ip-district-05.webp"
     ]
@@ -485,14 +485,14 @@
       23,
       24
     ],
-    "cover": "assets/vm/happy-parade-huizhou-01.webp",
+    "cover": "assets/vm/happy-parade-huizhou-01-no-logo.jpg",
     "gallery": [
-      "assets/vm/happy-parade-huizhou-01.webp",
-      "assets/vm/happy-parade-huizhou-02.webp",
-      "assets/vm/happy-parade-huizhou-03.webp",
-      "assets/vm/happy-parade-huizhou-04.webp",
-      "assets/vm/happy-parade-huizhou-05.webp",
-      "assets/vm/happy-parade-huizhou-06.webp"
+      "assets/vm/happy-parade-huizhou-01-no-logo.jpg",
+      "assets/vm/happy-parade-huizhou-02-no-logo.jpg",
+      "assets/vm/happy-parade-huizhou-03-no-logo.jpg",
+      "assets/vm/happy-parade-huizhou-04-no-logo.jpg",
+      "assets/vm/happy-parade-huizhou-05-no-logo.jpg",
+      "assets/vm/happy-parade-huizhou-06-no-logo.jpg"
     ]
   },
   {
@@ -512,11 +512,11 @@
     "sourceSlides": [
       25
     ],
-    "cover": "assets/vm/timeless-wonderland-01.webp",
+    "cover": "assets/vm/timeless-wonderland-01-no-logo.jpg",
     "gallery": [
-      "assets/vm/timeless-wonderland-01.webp",
-      "assets/vm/timeless-wonderland-02.webp",
-      "assets/vm/timeless-wonderland-03.webp"
+      "assets/vm/timeless-wonderland-01-no-logo.jpg",
+      "assets/vm/timeless-wonderland-02-no-logo.jpg",
+      "assets/vm/timeless-wonderland-03-no-logo.jpg"
     ]
   },
   {
@@ -563,8 +563,8 @@
     "gallery": [
       "assets/vm/harbour-window-01.webp",
       "assets/vm/harbour-window-02.webp",
-      "assets/vm/harbour-window-03.webp",
-      "assets/vm/harbour-window-04.webp"
+      "assets/vm/harbour-window-03-no-logo.jpg",
+      "assets/vm/harbour-window-04-no-logo.jpg"
     ]
   }
 ]
