@@ -100,6 +100,34 @@ const AIGC_DETAILS = {
     creative: "雨夜低谷 × 晴光重启 × 电影海报感",
     usage: "品牌态度片 / 社媒传播 / 叙事短片",
   },
+  "chanel-summer": {
+    status: "Conceptual use",
+    type: "概念创意 / 奢侈品夏日影像",
+    value: "以夏日海岸、香氛质感与高级品牌语境构建概念广告，让视觉先替品牌把气味、温度和情绪说出来。",
+    creative: "Luxury summer mood × fragrance storytelling",
+    usage: "概念提案 / 社媒视觉 / 品牌风格测试",
+  },
+  "corona-world-cup": {
+    status: "Conceptual use",
+    type: "概念创意 / 世界杯啤酒广告",
+    value: "把足球赛事能量与 Corona 的度假氛围结合，形成更轻松、更有传播感的运动节点创意影像。",
+    creative: "World Cup energy × beach lifestyle",
+    usage: "概念提案 / 体育营销 / 节点内容",
+  },
+  "labubu-world-cup": {
+    status: "Conceptual use",
+    type: "概念创意 / IP 赛事短片",
+    value: "用 Labubu 的 IP 情绪切入世界杯场景，把角色、球迷氛围和商品传播转化为一支高记忆点的概念短片。",
+    creative: "IP character × fan culture × sport fantasy",
+    usage: "概念提案 / IP 联名 / 社媒短片",
+  },
+  "rio-summer": {
+    status: "Conceptual use",
+    type: "概念创意 / 夏日饮品广告",
+    value: "以明亮色彩、冰爽质感和夏日派对节奏，构建一支适合饮品品牌的轻快概念影像。",
+    creative: "Summer color × icy texture × party rhythm",
+    usage: "概念提案 / 饮品营销 / 社媒内容",
+  },
 };
 
 const COMMON_AIGC = {
@@ -109,8 +137,15 @@ const COMMON_AIGC = {
   role: "创意策划 / AIGC 视觉 / 动态制作与后期",
 };
 
+const R2_VIDEO_PREFIX = "https://pub-396244dc69af461a8469a5d49391e2db.r2.dev/videos-to-upload/";
+
 const assetURL = (value = "") => {
   const source = String(value || "");
+  if (source.startsWith(R2_VIDEO_PREFIX) && window.location.protocol === "file:") {
+    const fileName = source.split("/").pop();
+    const isDeployPreview = /\/deploy\/[^/]*$/i.test(window.location.pathname);
+    return `${isDeployPreview ? "../" : ""}videos-to-upload/${fileName}`;
+  }
   return /^https?:\/\//i.test(source) ? source : `public/${source}`;
 };
 
@@ -367,7 +402,7 @@ function renderAigcWorks(items) {
             <video class="video-card__preview" autoplay muted loop playsinline preload="metadata" poster="${escapeHTML(assetURL(item.cover))}" aria-hidden="true">
               <source src="${escapeHTML(assetURL(item.video))}" type="${escapeHTML(item.mimeType || "video/mp4")}" />
             </video>
-            <span class="video-card__status">COMMERCIAL · 已商用</span>
+            <span class="video-card__status">${escapeHTML(item.status || "COMMERCIAL · 已商用")}</span>
             <span class="video-card__play"><b>▶</b><small>PLAY</small></span>
           </span>
           <span class="video-card__meta">
@@ -443,6 +478,7 @@ function openAigcModal(slug) {
   const item = aigcWorks.find((work) => work.slug === slug);
   if (!item) return;
   const details = { ...COMMON_AIGC, ...(AIGC_DETAILS[slug] || {}) };
+  details.status = item.status || details.status;
   $("#modal-content").innerHTML = `
     <article class="video-modal">
       <div class="video-modal__player">
